@@ -1,0 +1,12 @@
+.logo {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#heading {
+  background: url("../assets/backgrounds/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
