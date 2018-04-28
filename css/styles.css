@@ -34,7 +34,7 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width:400px;
+  width:372px;
   height:250px;
   position: relative;
 }
@@ -56,8 +56,34 @@ p {
 .container {
   width:100%;
   margin:0px;
-  padding: 0px
+  padding: 0px;
 }
 #clincher {
-  width: 50px
+  width: 50px;
+}
+.breakfast {
+  color: white;
+  text-align: center;
+}
+.lunch {
+  color: white;
+  text-align: center;
+}
+.dinner {
+  color: white;
+  text-align: center;
+}
+.produce {
+  text-align: right;
+}
+.second {
+  text-align: right;
+  float: right;
+}
+.first {
+  height: 300px
+  font-size: 30px
+}
+#drinks {
+  margin: 10px;
 }
