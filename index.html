@@ -1,77 +1,196 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
+
   <title>Anita's Kitchen</title>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script   src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+
+  <!--LINK TO STYLESHEETS-->
+  <link rel="stylesheet" href="./assets/css/stylesheet.css">
+
+  <!--LINK TO BOOTSTRAP-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!--LINK TO JS-->
+  <script src=""></script>
 </head>
+
 <body>
-  <div class="container">
-    <div id="heading">
-      <div class="logo"><img src="logoBig.png">
-        <p>We Provide The Best Food</p>
-        <p>At The <strong>Right Price</strong></p>
+  <!--Begining of Header-->
+  <div class="header">
+    <div class="container header-content">
+      <div class="closed-menu">
+        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+      </div>
+      <div class="center-content">
+        <img src="./assets/logoBig.png" alt="">
+        <h3>We Provide The Best Food</h3>
+        <h3>At The
+          <strong>Right Price</strong>
+        </h3>
       </div>
     </div>
+  </div>
+  <!--End of Header-->
+
+  <!--Begining of Kitchen Menu-->
+  <div class="kitchen-menu">
     <div class="row">
-      <div class="col-md-3">
-        <div class="row">
-        <br><br><br>
-          <p>Happy Hour</p>
-        <br><br><br>
+      <div class="col-md-3 text-col">
+        <div class="list-group">
+          <h4 class="first-col list-group-item-heading">Happy Hour</h4>
+        </div>
+        <div class="list-group">
+          <h4 class="first-col list-color list-group-item-heading">Party Time</h4>
+        </div>
       </div>
-      <div class="row">
-        <p>Party Time</p>
+      <div class="no-margin breakfast col-md-3">
+        <h4 class="text">Breakfast</h4>
       </div>
+      <div class="no-margin lunch col-md-3">
+        <h4 class="text">Lunch</h4>
       </div>
-      <div class="col-md-3">
-        <div id="breakfast">
-          <p class="breakfast">Breakfast</p>
-          <div id="breako">
+      <div class="no-margin dinner col-md-3">
+        <h4 class="text">Dinner</h4>
+      </div>
+    </div>
+  </div>
+  <!--End of Kitchen Menu-->
+
+  <!--Begining of Menu Item-->
+  <div class="container menu-item">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="img-padding">
+          <img src="./assets/fastFood1.jpg" alt="">
+          <img src="./assets/fastFood2.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-top col-md-6">
+        <h1>Fast Food</h1>
+        <h2>You'll love our delicious fast food</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+        <button class="btn" type="button">
+          VIEW GALLERY
+          <span style="font-size: 20px">&#8594;</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="row drink-padding">
+      <div class="col-md-6">
+        <h1>Drinks</h1>
+        <h2>We also produce delicious drinks</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <button class="btn" type="button">
+          VIEW GALLERY
+          <span style="font-size: 20px">&#8594;</span>
+        </button>
+      </div>
+      <div class="col-md-6">
+        <div id="drinks">
+          <img src="../assets/drink1.jpg">
+          <img src="../assets/drink2.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--End of Menu Item-->
+
+
+  <!--Begining of Quick Menu-->
+  <div class="quick-menu">
+    <div class="panel-heading">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active">
+          <a href="#fastfood" data-toggle="tab">Fast Foods</a>
+        </li>
+        <li role="presentation">
+          <a href="#drinks" data-toggle="tab">Drinks</a>
+        </li>
+        <li role="presentation">
+          <a href="#chicken" data-toggle="tab">Chicken</a>
+        </li>
+        <li role="presentation">
+          <a href="#rice" data-toggle="tab">Rice</a>
+        </li>
+      </ul>
+    </div>
+    <div class="panel-body">
+      <div class="tab-content">
+        <div class="tab-pane active" id="fastfood">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="./assets/fastfood/beefBurger.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+              <img src="./assets/fastfood/chickenBurger.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+              <img src="./assets/fastfood/chickenPizza.jpg" alt="">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div id="lunch">
-          <p class="lunch">Lunch</p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div id="dinner">
-          <p class="dinner">Dinner</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div id="image"><img src="fastFood1.jpg"></div>
-        <div id="images"><img src="fastFood2.jpg"></div>
-    </div>
-      <div class="col-md-6">
-        <div id="column">
-          <h1><strong>Fast Food</strong></h1>
-          <h1><strong>You'll love our delicious fast food</strong></h1>
-          <p class="first">Lorem ipsum dolor sit amet,consectetur adipisic ing elit,sed do euismod tempor incidudunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consquat.Duis autre irure dolor eu fugiat nulla pariatur.Exceteur sint occaecat cupi datat non proident</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h2><strong>Drinks</strong></h2>
-          <p class="produce"><strong>We also produce delicious drinks.</strong></p>
-          <p class="second">Lorem ipsum dolor sit amet,consectetur adipisic ing elit,sed do euismod tempor incidudunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consquat.Duis autre irure dolor eu fugiat nulla pariatur.Exceteur sint occaecat cupi datat non proident</p>
-        </div>
-      <div class="col-md-6">
-        <div id="drinks"><img src="drink1.jpg"><img src="drink2.jpg"></div>
+        <div class="tab-pane" id=drinks ""></div>
+        <div class="tab-pane" id="chicken"></div>
+        <div class="tab-pane" id="rice"></div>
       </div>
     </div>
   </div>
-    <div id="clincher">
-      <div class="down"><img src="foodsBg.jpg">
+  <!--End of Quick Menu -->
+
+  <!--Begining of About Menu-->
+  <div class="container about-menu">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-8">
+
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <h2>About Menu</h2>
+        <p>We are a little menu of seven members Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. We are a little menu of seven members Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
     </div>
   </div>
+  <!--End of About Menu-->
+
+  <!--Begining of subscription-->
+  <div class="subscribe">
+    <h1>Get our Daily Food Items Delivered To Your Email</h1>
+    <div class="subscribe-input">
+      <div class="form-group">
+        <div id="subscribe">
+          <input type="text" class="form-control" placeholder="Your email">
+          <button type="submit" class="btn btn-default">Subscribe</button>
+        </div>  
+      </div>
+    </div>
+  <!--End of subscription-->
+
+  <!--Begining of footer-->
+  <div class="footer">
+    <h1><img src="assets/footerlogos/logo_white.png">MENU</h1>
+    <h4>That's what we are</h4>
+    <ul>
+      <li><img src="../anitas-kitchen/assets/footerlogos/facebook.png" alt=""></li>
+      <li><img src="../anitas-kitchen/assets/footerlogos/pinterest.png" alt=""></li>
+      <li><img src="../anitas-kitchen/assets/footerlogos/twitter.png" alt=""></li>
+    </ul>
+    <p>2016 Menu Restaurant</p>
+  </div>
+  <!--End of footer-->
+
 </body>
+
 </html>
