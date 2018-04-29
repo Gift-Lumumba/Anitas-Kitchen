@@ -1,0 +1,256 @@
+/*THIS IS A CSS RESET
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*HTML 5 reset for older browsers
+*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  HEADER
+  ========================================
+*/
+.header{
+  background: url('../backgrounds/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+}
+
+.closed-menu{
+  color: #FFFFFF;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.center-content{
+  text-align: center;
+}
+
+.center-content h3{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+
+/*
+  ========================================
+  KITCHEN MENU SECTION
+  ========================================
+*/
+
+
+.kitchen-menu .text{
+  color: #FFFFFF;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.first-col{
+  padding: 48px 0;
+  text-align: center;
+}
+
+.text-col{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.list-color{
+  color: #FFFFFF;
+  background: #f46842;
+}
+
+.breakfast{
+  background: url('../foodtop/breakfast.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 430px;
+  height: 250px;
+  position: relative;
+}
+
+.lunch{
+  background: url('../foodtop/lunch.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:430px;
+  height: 250px;
+  position: relative;
+}
+
+.dinner{
+  background: url('../foodtop/dinner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 372px;
+  height: 250px;  
+  position: relative;
+}
+#drinks {
+  margin: 10px;
+}
+.drink-padding {
+  padding-top: 150px;
+}
+
+/*
+  ========================================
+   MENU ITEMS SECTION
+  ========================================
+*/
+.menu-item{
+  padding: 50px;
+}
+
+.img-padding{
+  padding: 5px;
+}
+
+.menu-item h1{
+  font-size: 35px;
+}
+
+.menu-item h2{
+  font-size: 27px;
+}
+
+.menu-item p{
+  font-size: 19px;
+  padding-bottom: 50px;
+}
+
+button{
+  padding: 15px 30px !important;
+  font-size:18px !important;
+  background-color: #FFFFFF;
+  border: 2px solid #f46842 !important;
+  border-radius: 0 !important;
+}
+
+
+/*
+  ========================================
+   QUICK MENU SECTION
+  ========================================
+*/
+
+.quick-menu{
+  background: url('../backgrounds/foodsBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+}
+
+
+/*
+  ========================================
+   ABOUT MENU SECTION
+  ========================================
+*/
+
+.about-menu{
+  margin: 100px 200px;
+  -webkit-box-shadow: 10px 15px 30px 0 rgba(0,0,0,0.11);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    10px 15px 30px 0 rgba(0,0,0,0.11);  /* Firefox 3.5 - 3.6 */
+  box-shadow:         10px 15px 30px 0 rgba(0,0,0,0.11);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+
+
+/*
+  ========================================
+   SUBSCRIPTION SECTION
+  ========================================
+*/
+
+.subscribe{
+  background: url('../backgrounds/subscribe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px; 
+  margin: 0;
+}
+
+
+.subscribe h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 30px;
+  padding-top: 70px; 
+}
+
+
+
+ /*
+  ========================================
+   FOOTER SECTION
+  ========================================
+*/
+
+.footer{
+  height: 250px;
+  color: #FFFFFF;
+  background-color: #f46842;
+  text-align: center;
+  margin: 0; 
+}
+.footer h1 {
+  padding-top:30px;
+}
+.footer p{
+  padding-top:50px;
+}
+#subscribe {
+  text-align: right;
+  margin: 20px;
+  width: 600px;
+}
