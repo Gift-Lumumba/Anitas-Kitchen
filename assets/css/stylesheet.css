@@ -61,9 +61,11 @@ table {
 }
 
 .closed-menu{
-  color: #FFFFFF;
-  padding: 30px;
+  color:#FFFFFF;
+  padding-top:30px;
+  padding-right: 50px;
   font-size: 30px;
+  text-align: left;
 }
 
 .center-content{
